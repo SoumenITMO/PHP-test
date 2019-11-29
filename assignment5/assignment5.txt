@@ -1,0 +1,11 @@
+
+  
+   For this case. The best solution is to replicate the database to a new database 
+   by command line to copy full database to a new one. In this case tables and their 
+   relation and columns all will remain same. Yes, for security purpose it will need to 
+   assign new credential for the database. But copy tables row by row using a script 
+   definitely not convenient at all. First coping using script will be really slow and 
+   not only that it will waste system resource. 
+   
+   copying by script is ok only if the table is small and does not have relation with other 
+   tables. So, copying database using command-line is highly recommended.

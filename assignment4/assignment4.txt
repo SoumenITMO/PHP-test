@@ -1,0 +1,11 @@
+
+  For custom product it should have a table of custom products which can hold all custom products 
+  and those custom products' data also should store and linked with other properties table where 
+  it will hold custom products' properties data and separate logic needs to implements according 
+  custom product requirement. So, when custom product will add then if custom product already exists.
+  In case if it is not. Then special logic needs to implement where custom product will be added with 
+  other data without having separate table for it's data and so on. The existing product logic needs 
+  to modify when a custom product needs to add and apply custom logic for the custom product. But definitely
+  if different custom product logic and properties are too much different then each custom product logic needs
+  to design for the product.
+  
